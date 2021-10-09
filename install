@@ -1,11 +1,10 @@
-#!bin/sh
+#!/bin/bash
 
-sudo su
-chmod +x pomo
-
+sudo chmod +x pomo
 # make it as a command
-cp pomo /usr/bin/
-mkdir /usr/bin/pomoimages
-cp start.jpg /usr/bin/pomoimages
-cp break.jpg /usr/bin/pomoimages
+sudo cp pomo /usr/bin/pomo
+
+sudo mkdir /usr/bin/pomoimages
+sudo cp pomoimages/start.jpg /usr/bin/pomoimages/start.jpg
+sudo cp pomoimages/break.jpg /usr/bin/pomoimages/break.jpg
 exit
