@@ -105,7 +105,7 @@ while [ $counter -le $(($s - 1)) ]
 do
 # session start
 spd-say -l en -t female2 "session started, get focused well. Good luck"
-notify-send -t 5000 -i "${PWD}/pomoimages/start.jpg" "50 min pomodoro start, $(($counter + 1)) session"
+notify-send -t 5000 -i "${PWD}/pomoimages/start.jpg" "${m} min pomodoro start, $(($counter + 1)) session"
 # counting minute by minute and prompt minutew left
 counter2=0
 while [ $counter2 -le $m ]
